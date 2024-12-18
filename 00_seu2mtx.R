@@ -1,36 +1,9 @@
-# Convert Seurat object from AJP dataset to mtx format data
+# Convert Seurat object from AJP dataset to mtx format data.
 
 
 library(Seurat)
-library(Matrix)
 
-
-seu2mtx <- function(seu_obj, save_dir) {
-  #
-  # Convert seurat object to mtx format data
-  #
-  # Args:
-  #   seu_obj: Seurat object
-  #   save_dir: str, path to save mtx data
-  #
-  # Returns:
-  #   None
-  #
-  dir.create(save_dir, recursive = TRUE, showWarnings = FALSE)
-
-  matrix <- GetAssayData(seu_obj, assay = "RNA", layer = "counts")
-  barcodes <- data.frame(colnames(seu_obj))
-  features <- data.frame(rownames(seu_obj))
-  meta <- seu_obj@meta.data
-
-  write.table(barcodes, paste0(save_dir, "/barcodes.tsv"),
-              sep = "\t", quote = FALSE, row.names = FALSE, col.names = FALSE)
-  write.table(features, paste0(save_dir, "/features.tsv"),
-              sep = "\t", quote = FALSE, row.names = FALSE, col.names = FALSE)
-  writeMM(matrix, paste0(save_dir, "/matrix.mtx"))
-  write.table(meta, paste0(save_dir, "/metadata.tsv"),
-              sep = "\t", quote = FALSE, row.names = TRUE, col.names = TRUE)
-}
+source("./utils/io.R")
 
 
 #### Main ####

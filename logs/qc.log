@@ -1,0 +1,330 @@
+2024-12-16 15:00:19,158 - qc - INFO - quality control for SCH7
+2024-12-16 15:00:19,159 - qc - INFO - raw: n_obs x n_vars = 6794880 x 36601
+2024-12-16 15:00:29,052 - qc - INFO - filter cells: n=6788536
+2024-12-16 15:00:29,052 - qc - INFO - filter genes: n=0
+2024-12-16 15:00:33,386 - qc - INFO - run scrublet... (this may take some time)
+2024-12-16 15:02:20,805 - qc - INFO - number of predicted doublets: 1
+2024-12-16 15:02:20,805 - qc - INFO - run leiden clustering...
+2024-12-16 15:02:39,211 - qc - INFO - cells with too much mt genes: n=220
+2024-12-16 15:02:39,213 - qc - INFO - clusters with high doublet score: ['13', '15']
+2024-12-16 15:02:39,228 - qc - INFO - filter cells: n=372
+2024-12-16 15:02:39,228 - qc - INFO - after qc: n_obs x n_vars = 5972 x 36601
+2024-12-16 15:02:41,577 - qc - INFO - quality control for SCH4
+2024-12-16 15:02:41,577 - qc - INFO - raw: n_obs x n_vars = 6794880 x 36601
+2024-12-16 15:02:45,102 - qc - INFO - filter cells: n=6764351
+2024-12-16 15:02:45,102 - qc - INFO - filter genes: n=0
+2024-12-16 15:02:46,730 - qc - INFO - run scrublet... (this may take some time)
+2024-12-16 15:11:59,322 - qc - INFO - number of predicted doublets: 10
+2024-12-16 15:11:59,322 - qc - INFO - run leiden clustering...
+2024-12-16 15:12:29,401 - qc - INFO - cells with too much mt genes: n=1247
+2024-12-16 15:12:29,403 - qc - INFO - clusters with high doublet score: []
+2024-12-16 15:12:29,437 - qc - INFO - filter cells: n=1255
+2024-12-16 15:12:29,437 - qc - INFO - after qc: n_obs x n_vars = 29274 x 36601
+2024-12-16 15:12:34,381 - qc - INFO - quality control for N2
+2024-12-16 15:12:34,381 - qc - INFO - raw: n_obs x n_vars = 12428 x 36601
+2024-12-16 15:12:34,896 - qc - INFO - filter cells: n=1183
+2024-12-16 15:12:34,896 - qc - INFO - filter genes: n=0
+2024-12-16 15:12:35,603 - qc - INFO - run scrublet... (this may take some time)
+2024-12-16 15:13:46,964 - qc - INFO - number of predicted doublets: 717
+2024-12-16 15:13:46,964 - qc - INFO - run leiden clustering...
+2024-12-16 15:14:01,459 - qc - INFO - cells with too much mt genes: n=420
+2024-12-16 15:14:01,460 - qc - INFO - clusters with high doublet score: ['6', '8', '16']
+2024-12-16 15:14:01,479 - qc - INFO - filter cells: n=1233
+2024-12-16 15:14:01,479 - qc - INFO - after qc: n_obs x n_vars = 10012 x 36601
+2024-12-16 15:14:04,697 - qc - INFO - quality control for T4
+2024-12-16 15:14:04,697 - qc - INFO - raw: n_obs x n_vars = 16656 x 33538
+2024-12-16 15:14:05,320 - qc - INFO - filter cells: n=1478
+2024-12-16 15:14:05,320 - qc - INFO - filter genes: n=0
+2024-12-16 15:14:06,219 - qc - INFO - run scrublet... (this may take some time)
+2024-12-16 15:16:14,691 - qc - INFO - number of predicted doublets: 779
+2024-12-16 15:16:14,691 - qc - INFO - run leiden clustering...
+2024-12-16 15:16:32,901 - qc - INFO - cells with too much mt genes: n=498
+2024-12-16 15:16:32,903 - qc - INFO - clusters with high doublet score: ['3', '13']
+2024-12-16 15:16:32,925 - qc - INFO - filter cells: n=1458
+2024-12-16 15:16:32,925 - qc - INFO - after qc: n_obs x n_vars = 13720 x 33538
+2024-12-16 15:16:36,508 - qc - INFO - quality control for T6
+2024-12-16 15:16:36,509 - qc - INFO - raw: n_obs x n_vars = 11892 x 36601
+2024-12-16 15:16:37,027 - qc - INFO - filter cells: n=796
+2024-12-16 15:16:37,027 - qc - INFO - filter genes: n=0
+2024-12-16 15:16:37,926 - qc - INFO - run scrublet... (this may take some time)
+2024-12-16 15:18:24,117 - qc - INFO - number of predicted doublets: 299
+2024-12-16 15:18:24,117 - qc - INFO - run leiden clustering...
+2024-12-16 15:18:38,303 - qc - INFO - cells with too much mt genes: n=387
+2024-12-16 15:18:38,304 - qc - INFO - clusters with high doublet score: []
+2024-12-16 15:18:38,323 - qc - INFO - filter cells: n=679
+2024-12-16 15:18:38,323 - qc - INFO - after qc: n_obs x n_vars = 10417 x 36601
+2024-12-16 15:18:41,493 - qc - INFO - quality control for T5
+2024-12-16 15:18:41,494 - qc - INFO - raw: n_obs x n_vars = 21949 x 33538
+2024-12-16 15:18:42,367 - qc - INFO - filter cells: n=1576
+2024-12-16 15:18:42,367 - qc - INFO - filter genes: n=0
+2024-12-16 15:18:43,706 - qc - INFO - run scrublet... (this may take some time)
+2024-12-16 15:21:39,325 - qc - INFO - number of predicted doublets: 2
+2024-12-16 15:21:39,326 - qc - INFO - run leiden clustering...
+2024-12-16 15:22:01,380 - qc - INFO - cells with too much mt genes: n=606
+2024-12-16 15:22:01,382 - qc - INFO - clusters with high doublet score: ['4', '17', '18']
+2024-12-16 15:22:01,408 - qc - INFO - filter cells: n=1577
+2024-12-16 15:22:01,408 - qc - INFO - after qc: n_obs x n_vars = 18796 x 33538
+2024-12-16 15:22:05,366 - qc - INFO - quality control for Tingliu2
+2024-12-16 15:22:05,366 - qc - INFO - raw: n_obs x n_vars = 8744 x 27719
+2024-12-16 15:22:05,688 - qc - INFO - filter cells: n=1575
+2024-12-16 15:22:05,688 - qc - INFO - filter genes: n=0
+2024-12-16 15:22:06,197 - qc - INFO - run scrublet... (this may take some time)
+2024-12-16 15:22:49,467 - qc - INFO - number of predicted doublets: 134
+2024-12-16 15:22:49,467 - qc - INFO - run leiden clustering...
+2024-12-16 15:23:04,377 - qc - INFO - cells with too much mt genes: n=248
+2024-12-16 15:23:04,379 - qc - INFO - clusters with high doublet score: ['10']
+2024-12-16 15:23:04,391 - qc - INFO - filter cells: n=393
+2024-12-16 15:23:04,391 - qc - INFO - after qc: n_obs x n_vars = 6776 x 27719
+2024-12-16 15:23:06,795 - qc - INFO - quality control for SCH22
+2024-12-16 15:23:06,796 - qc - INFO - raw: n_obs x n_vars = 2548809 x 36601
+2024-12-16 15:23:09,215 - qc - INFO - filter cells: n=2530150
+2024-12-16 15:23:09,215 - qc - INFO - filter genes: n=0
+2024-12-16 15:23:10,820 - qc - INFO - run scrublet... (this may take some time)
+2024-12-16 15:27:19,668 - qc - INFO - number of predicted doublets: 913
+2024-12-16 15:27:19,668 - qc - INFO - run leiden clustering...
+2024-12-16 15:27:41,175 - qc - INFO - cells with too much mt genes: n=790
+2024-12-16 15:27:41,176 - qc - INFO - clusters with high doublet score: ['3', '14']
+2024-12-16 15:27:41,199 - qc - INFO - filter cells: n=1828
+2024-12-16 15:27:41,199 - qc - INFO - after qc: n_obs x n_vars = 16831 x 36601
+2024-12-16 15:27:45,258 - qc - INFO - quality control for SCH2
+2024-12-16 15:27:45,258 - qc - INFO - raw: n_obs x n_vars = 6794880 x 36601
+2024-12-16 15:27:46,374 - qc - INFO - filter cells: n=6786279
+2024-12-16 15:27:46,374 - qc - INFO - filter genes: n=0
+2024-12-16 15:27:47,009 - qc - INFO - run scrublet... (this may take some time)
+2024-12-16 15:28:39,087 - qc - INFO - number of predicted doublets: 172
+2024-12-16 15:28:39,088 - qc - INFO - run leiden clustering...
+2024-12-16 15:28:57,844 - qc - INFO - cells with too much mt genes: n=248
+2024-12-16 15:28:57,845 - qc - INFO - clusters with high doublet score: ['14']
+2024-12-16 15:28:57,864 - qc - INFO - filter cells: n=433
+2024-12-16 15:28:57,864 - qc - INFO - after qc: n_obs x n_vars = 8168 x 36601
+2024-12-16 15:29:00,667 - qc - INFO - quality control for AN014
+2024-12-16 15:29:00,668 - qc - INFO - raw: n_obs x n_vars = 2599 x 36601
+2024-12-16 15:29:00,842 - qc - INFO - filter cells: n=83
+2024-12-16 15:29:00,842 - qc - INFO - filter genes: n=0
+2024-12-16 15:29:01,087 - qc - INFO - run scrublet... (this may take some time)
+2024-12-16 15:29:04,345 - qc - INFO - number of predicted doublets: 9
+2024-12-16 15:29:04,345 - qc - INFO - run leiden clustering...
+2024-12-16 15:29:11,120 - qc - INFO - cells with too much mt genes: n=111
+2024-12-16 15:29:11,121 - qc - INFO - clusters with high doublet score: []
+2024-12-16 15:29:11,134 - qc - INFO - filter cells: n=119
+2024-12-16 15:29:11,134 - qc - INFO - after qc: n_obs x n_vars = 2397 x 36601
+2024-12-16 15:29:12,898 - qc - INFO - quality control for SCH8
+2024-12-16 15:29:12,899 - qc - INFO - raw: n_obs x n_vars = 6794880 x 36601
+2024-12-16 15:29:14,219 - qc - INFO - filter cells: n=6787786
+2024-12-16 15:29:14,219 - qc - INFO - filter genes: n=0
+2024-12-16 15:29:14,895 - qc - INFO - run scrublet... (this may take some time)
+2024-12-16 15:29:59,079 - qc - INFO - number of predicted doublets: 0
+2024-12-16 15:29:59,079 - qc - INFO - run leiden clustering...
+2024-12-16 15:30:13,788 - qc - INFO - cells with too much mt genes: n=301
+2024-12-16 15:30:13,789 - qc - INFO - clusters with high doublet score: []
+2024-12-16 15:30:13,805 - qc - INFO - filter cells: n=301
+2024-12-16 15:30:13,805 - qc - INFO - after qc: n_obs x n_vars = 6793 x 36601
+2024-12-16 15:30:16,460 - qc - INFO - quality control for SCH6
+2024-12-16 15:30:16,461 - qc - INFO - raw: n_obs x n_vars = 6794880 x 36601
+2024-12-16 15:30:17,783 - qc - INFO - filter cells: n=6783782
+2024-12-16 15:30:17,783 - qc - INFO - filter genes: n=0
+2024-12-16 15:30:18,501 - qc - INFO - run scrublet... (this may take some time)
+2024-12-16 15:31:33,912 - qc - INFO - number of predicted doublets: 0
+2024-12-16 15:31:33,912 - qc - INFO - run leiden clustering...
+2024-12-16 15:31:48,039 - qc - INFO - cells with too much mt genes: n=430
+2024-12-16 15:31:48,040 - qc - INFO - clusters with high doublet score: ['9']
+2024-12-16 15:31:48,059 - qc - INFO - filter cells: n=591
+2024-12-16 15:31:48,059 - qc - INFO - after qc: n_obs x n_vars = 10507 x 36601
+2024-12-16 15:31:51,285 - qc - INFO - quality control for SCH21
+2024-12-16 15:31:51,286 - qc - INFO - raw: n_obs x n_vars = 2706335 x 36601
+2024-12-16 15:31:53,266 - qc - INFO - filter cells: n=2687062
+2024-12-16 15:31:53,266 - qc - INFO - filter genes: n=0
+2024-12-16 15:31:54,624 - qc - INFO - run scrublet... (this may take some time)
+2024-12-16 15:35:47,045 - qc - INFO - number of predicted doublets: 0
+2024-12-16 15:35:47,045 - qc - INFO - run leiden clustering...
+2024-12-16 15:36:08,505 - qc - INFO - cells with too much mt genes: n=811
+2024-12-16 15:36:08,507 - qc - INFO - clusters with high doublet score: []
+2024-12-16 15:36:08,531 - qc - INFO - filter cells: n=811
+2024-12-16 15:36:08,531 - qc - INFO - after qc: n_obs x n_vars = 18462 x 36601
+2024-12-16 15:36:12,305 - qc - INFO - quality control for SCH18
+2024-12-16 15:36:12,306 - qc - INFO - raw: n_obs x n_vars = 2722316 x 36601
+2024-12-16 15:36:14,227 - qc - INFO - filter cells: n=2702815
+2024-12-16 15:36:14,227 - qc - INFO - filter genes: n=0
+2024-12-16 15:36:15,598 - qc - INFO - run scrublet... (this may take some time)
+2024-12-16 15:40:45,315 - qc - INFO - number of predicted doublets: 0
+2024-12-16 15:40:45,315 - qc - INFO - run leiden clustering...
+2024-12-16 15:41:07,270 - qc - INFO - cells with too much mt genes: n=818
+2024-12-16 15:41:07,272 - qc - INFO - clusters with high doublet score: []
+2024-12-16 15:41:07,296 - qc - INFO - filter cells: n=818
+2024-12-16 15:41:07,296 - qc - INFO - after qc: n_obs x n_vars = 18683 x 36601
+2024-12-16 15:41:11,099 - qc - INFO - quality control for SCH1
+2024-12-16 15:41:11,100 - qc - INFO - raw: n_obs x n_vars = 6794880 x 36601
+2024-12-16 15:41:12,339 - qc - INFO - filter cells: n=6786451
+2024-12-16 15:41:12,339 - qc - INFO - filter genes: n=0
+2024-12-16 15:41:12,968 - qc - INFO - run scrublet... (this may take some time)
+2024-12-16 15:42:06,053 - qc - INFO - number of predicted doublets: 0
+2024-12-16 15:42:06,054 - qc - INFO - run leiden clustering...
+2024-12-16 15:42:24,545 - qc - INFO - cells with too much mt genes: n=311
+2024-12-16 15:42:24,546 - qc - INFO - clusters with high doublet score: ['16']
+2024-12-16 15:42:24,564 - qc - INFO - filter cells: n=374
+2024-12-16 15:42:24,564 - qc - INFO - after qc: n_obs x n_vars = 8055 x 36601
+2024-12-16 15:42:27,264 - qc - INFO - quality control for SCH20
+2024-12-16 15:42:27,264 - qc - INFO - raw: n_obs x n_vars = 2227400 x 36601
+2024-12-16 15:42:28,624 - qc - INFO - filter cells: n=2212139
+2024-12-16 15:42:28,624 - qc - INFO - filter genes: n=0
+2024-12-16 15:42:29,557 - qc - INFO - run scrublet... (this may take some time)
+2024-12-16 15:45:32,888 - qc - INFO - number of predicted doublets: 1153
+2024-12-16 15:45:32,889 - qc - INFO - run leiden clustering...
+2024-12-16 15:45:50,835 - qc - INFO - cells with too much mt genes: n=630
+2024-12-16 15:45:50,836 - qc - INFO - clusters with high doublet score: ['1']
+2024-12-16 15:45:50,857 - qc - INFO - filter cells: n=1782
+2024-12-16 15:45:50,857 - qc - INFO - after qc: n_obs x n_vars = 13479 x 36601
+2024-12-16 15:45:53,969 - qc - INFO - quality control for SCH9
+2024-12-16 15:45:53,969 - qc - INFO - raw: n_obs x n_vars = 6794880 x 36601
+2024-12-16 15:45:54,862 - qc - INFO - filter cells: n=6788107
+2024-12-16 15:45:54,862 - qc - INFO - filter genes: n=0
+2024-12-16 15:45:55,288 - qc - INFO - run scrublet... (this may take some time)
+2024-12-16 15:46:34,159 - qc - INFO - number of predicted doublets: 110
+2024-12-16 15:46:34,159 - qc - INFO - run leiden clustering...
+2024-12-16 15:46:48,151 - qc - INFO - cells with too much mt genes: n=234
+2024-12-16 15:46:48,154 - qc - INFO - clusters with high doublet score: ['12']
+2024-12-16 15:46:48,179 - qc - INFO - filter cells: n=367
+2024-12-16 15:46:48,179 - qc - INFO - after qc: n_obs x n_vars = 6406 x 36601
+2024-12-16 15:46:50,707 - qc - INFO - quality control for T3
+2024-12-16 15:46:50,708 - qc - INFO - raw: n_obs x n_vars = 8088 x 33538
+2024-12-16 15:46:51,087 - qc - INFO - filter cells: n=187
+2024-12-16 15:46:51,087 - qc - INFO - filter genes: n=0
+2024-12-16 15:46:51,612 - qc - INFO - run scrublet... (this may take some time)
+2024-12-16 15:47:35,146 - qc - INFO - number of predicted doublets: 212
+2024-12-16 15:47:35,146 - qc - INFO - run leiden clustering...
+2024-12-16 15:47:50,400 - qc - INFO - cells with too much mt genes: n=288
+2024-12-16 15:47:50,401 - qc - INFO - clusters with high doublet score: ['15']
+2024-12-16 15:47:50,417 - qc - INFO - filter cells: n=568
+2024-12-16 15:47:50,417 - qc - INFO - after qc: n_obs x n_vars = 7333 x 33538
+2024-12-16 15:47:52,997 - qc - INFO - quality control for T2
+2024-12-16 15:47:52,998 - qc - INFO - raw: n_obs x n_vars = 9653 x 33538
+2024-12-16 15:47:53,420 - qc - INFO - filter cells: n=375
+2024-12-16 15:47:53,420 - qc - INFO - filter genes: n=0
+2024-12-16 15:47:54,058 - qc - INFO - run scrublet... (this may take some time)
+2024-12-16 15:48:49,004 - qc - INFO - number of predicted doublets: 0
+2024-12-16 15:48:49,004 - qc - INFO - run leiden clustering...
+2024-12-16 15:49:08,998 - qc - INFO - cells with too much mt genes: n=341
+2024-12-16 15:49:09,000 - qc - INFO - clusters with high doublet score: ['8', '13']
+2024-12-16 15:49:09,017 - qc - INFO - filter cells: n=566
+2024-12-16 15:49:09,017 - qc - INFO - after qc: n_obs x n_vars = 8712 x 33538
+2024-12-16 15:49:11,519 - qc - INFO - quality control for AN017
+2024-12-16 15:49:11,520 - qc - INFO - raw: n_obs x n_vars = 1712 x 36601
+2024-12-16 15:49:11,642 - qc - INFO - filter cells: n=214
+2024-12-16 15:49:11,642 - qc - INFO - filter genes: n=0
+2024-12-16 15:49:11,860 - qc - INFO - run scrublet... (this may take some time)
+2024-12-16 15:49:14,116 - qc - INFO - number of predicted doublets: 7
+2024-12-16 15:49:14,116 - qc - INFO - run leiden clustering...
+2024-12-16 15:49:19,244 - qc - INFO - cells with too much mt genes: n=65
+2024-12-16 15:49:19,245 - qc - INFO - clusters with high doublet score: []
+2024-12-16 15:49:19,258 - qc - INFO - filter cells: n=70
+2024-12-16 15:49:19,258 - qc - INFO - after qc: n_obs x n_vars = 1428 x 36601
+2024-12-16 15:49:20,959 - qc - INFO - quality control for Tingliu3
+2024-12-16 15:49:20,959 - qc - INFO - raw: n_obs x n_vars = 12263 x 27719
+2024-12-16 15:49:21,369 - qc - INFO - filter cells: n=751
+2024-12-16 15:49:21,369 - qc - INFO - filter genes: n=0
+2024-12-16 15:49:21,988 - qc - INFO - run scrublet... (this may take some time)
+2024-12-16 15:51:20,589 - qc - INFO - number of predicted doublets: 213
+2024-12-16 15:51:20,589 - qc - INFO - run leiden clustering...
+2024-12-16 15:51:53,674 - qc - INFO - cells with too much mt genes: n=264
+2024-12-16 15:51:53,676 - qc - INFO - clusters with high doublet score: ['10']
+2024-12-16 15:51:53,692 - qc - INFO - filter cells: n=500
+2024-12-16 15:51:53,692 - qc - INFO - after qc: n_obs x n_vars = 11012 x 27719
+2024-12-16 15:51:57,693 - qc - INFO - quality control for SCH5
+2024-12-16 15:51:57,694 - qc - INFO - raw: n_obs x n_vars = 6794880 x 36601
+2024-12-16 15:51:59,002 - qc - INFO - filter cells: n=6789092
+2024-12-16 15:51:59,002 - qc - INFO - filter genes: n=0
+2024-12-16 15:51:59,642 - qc - INFO - run scrublet... (this may take some time)
+2024-12-16 15:52:42,971 - qc - INFO - number of predicted doublets: 0
+2024-12-16 15:52:42,971 - qc - INFO - run leiden clustering...
+2024-12-16 15:52:58,359 - qc - INFO - cells with too much mt genes: n=163
+2024-12-16 15:52:58,361 - qc - INFO - clusters with high doublet score: []
+2024-12-16 15:52:58,381 - qc - INFO - filter cells: n=163
+2024-12-16 15:52:58,381 - qc - INFO - after qc: n_obs x n_vars = 5625 x 36601
+2024-12-16 15:53:01,212 - qc - INFO - quality control for T7
+2024-12-16 15:53:01,213 - qc - INFO - raw: n_obs x n_vars = 12738 x 36601
+2024-12-16 15:53:02,234 - qc - INFO - filter cells: n=398
+2024-12-16 15:53:02,234 - qc - INFO - filter genes: n=0
+2024-12-16 15:53:03,735 - qc - INFO - run scrublet... (this may take some time)
+2024-12-16 15:55:25,040 - qc - INFO - number of predicted doublets: 746
+2024-12-16 15:55:25,040 - qc - INFO - run leiden clustering...
+2024-12-16 15:55:54,263 - qc - INFO - cells with too much mt genes: n=443
+2024-12-16 15:55:54,265 - qc - INFO - clusters with high doublet score: ['6', '12', '16']
+2024-12-16 15:55:54,286 - qc - INFO - filter cells: n=1258
+2024-12-16 15:55:54,286 - qc - INFO - after qc: n_obs x n_vars = 11082 x 36601
+2024-12-16 15:55:58,187 - qc - INFO - quality control for T1
+2024-12-16 15:55:58,188 - qc - INFO - raw: n_obs x n_vars = 10191 x 33538
+2024-12-16 15:55:58,929 - qc - INFO - filter cells: n=410
+2024-12-16 15:55:58,930 - qc - INFO - filter genes: n=0
+2024-12-16 15:55:59,903 - qc - INFO - run scrublet... (this may take some time)
+2024-12-16 15:57:25,839 - qc - INFO - number of predicted doublets: 268
+2024-12-16 15:57:25,839 - qc - INFO - run leiden clustering...
+2024-12-16 15:57:48,226 - qc - INFO - cells with too much mt genes: n=314
+2024-12-16 15:57:48,228 - qc - INFO - clusters with high doublet score: ['7']
+2024-12-16 15:57:48,246 - qc - INFO - filter cells: n=644
+2024-12-16 15:57:48,246 - qc - INFO - after qc: n_obs x n_vars = 9137 x 33538
+2024-12-16 15:57:51,289 - qc - INFO - quality control for SCH14
+2024-12-16 15:57:51,290 - qc - INFO - raw: n_obs x n_vars = 6794880 x 36601
+2024-12-16 15:57:53,397 - qc - INFO - filter cells: n=6787437
+2024-12-16 15:57:53,397 - qc - INFO - filter genes: n=0
+2024-12-16 15:57:54,265 - qc - INFO - run scrublet... (this may take some time)
+2024-12-16 15:58:45,691 - qc - INFO - number of predicted doublets: 0
+2024-12-16 15:58:45,692 - qc - INFO - run leiden clustering...
+2024-12-16 15:59:01,261 - qc - INFO - cells with too much mt genes: n=198
+2024-12-16 15:59:01,262 - qc - INFO - clusters with high doublet score: []
+2024-12-16 15:59:01,279 - qc - INFO - filter cells: n=198
+2024-12-16 15:59:01,279 - qc - INFO - after qc: n_obs x n_vars = 7245 x 36601
+2024-12-16 15:59:04,073 - qc - INFO - quality control for N1
+2024-12-16 15:59:04,074 - qc - INFO - raw: n_obs x n_vars = 13666 x 33538
+2024-12-16 15:59:04,877 - qc - INFO - filter cells: n=448
+2024-12-16 15:59:04,877 - qc - INFO - filter genes: n=0
+2024-12-16 15:59:05,876 - qc - INFO - run scrublet... (this may take some time)
+2024-12-16 16:00:34,971 - qc - INFO - number of predicted doublets: 814
+2024-12-16 16:00:34,971 - qc - INFO - run leiden clustering...
+2024-12-16 16:00:51,160 - qc - INFO - cells with too much mt genes: n=513
+2024-12-16 16:00:51,162 - qc - INFO - clusters with high doublet score: ['4', '17', '22']
+2024-12-16 16:00:51,181 - qc - INFO - filter cells: n=1365
+2024-12-16 16:00:51,181 - qc - INFO - after qc: n_obs x n_vars = 11853 x 33538
+2024-12-16 16:00:54,646 - qc - INFO - quality control for SCH3
+2024-12-16 16:00:54,647 - qc - INFO - raw: n_obs x n_vars = 6794880 x 36601
+2024-12-16 16:00:55,266 - qc - INFO - filter cells: n=6792611
+2024-12-16 16:00:55,266 - qc - INFO - filter genes: n=0
+2024-12-16 16:00:55,560 - qc - INFO - run scrublet... (this may take some time)
+2024-12-16 16:00:57,977 - qc - INFO - number of predicted doublets: 6
+2024-12-16 16:00:57,977 - qc - INFO - run leiden clustering...
+2024-12-16 16:01:04,407 - qc - INFO - cells with too much mt genes: n=87
+2024-12-16 16:01:04,408 - qc - INFO - clusters with high doublet score: []
+2024-12-16 16:01:04,422 - qc - INFO - filter cells: n=93
+2024-12-16 16:01:04,422 - qc - INFO - after qc: n_obs x n_vars = 2176 x 36601
+2024-12-16 16:01:06,300 - qc - INFO - quality control for SCH13
+2024-12-16 16:01:06,301 - qc - INFO - raw: n_obs x n_vars = 6794880 x 36601
+2024-12-16 16:01:08,760 - qc - INFO - filter cells: n=6778610
+2024-12-16 16:01:08,761 - qc - INFO - filter genes: n=0
+2024-12-16 16:01:10,019 - qc - INFO - run scrublet... (this may take some time)
+2024-12-16 16:03:30,637 - qc - INFO - number of predicted doublets: 0
+2024-12-16 16:03:30,637 - qc - INFO - run leiden clustering...
+2024-12-16 16:03:49,660 - qc - INFO - cells with too much mt genes: n=546
+2024-12-16 16:03:49,661 - qc - INFO - clusters with high doublet score: ['9']
+2024-12-16 16:03:49,684 - qc - INFO - filter cells: n=1251
+2024-12-16 16:03:49,684 - qc - INFO - after qc: n_obs x n_vars = 15019 x 36601
+2024-12-16 16:03:53,293 - qc - INFO - quality control for AN018
+2024-12-16 16:03:53,294 - qc - INFO - raw: n_obs x n_vars = 7705 x 36601
+2024-12-16 16:03:53,830 - qc - INFO - filter cells: n=356
+2024-12-16 16:03:53,830 - qc - INFO - filter genes: n=0
+2024-12-16 16:03:54,277 - qc - INFO - run scrublet... (this may take some time)
+2024-12-16 16:04:42,687 - qc - INFO - number of predicted doublets: 0
+2024-12-16 16:04:42,687 - qc - INFO - run leiden clustering...
+2024-12-16 16:04:58,005 - qc - INFO - cells with too much mt genes: n=320
+2024-12-16 16:04:58,007 - qc - INFO - clusters with high doublet score: ['11']
+2024-12-16 16:04:58,023 - qc - INFO - filter cells: n=636
+2024-12-16 16:04:58,023 - qc - INFO - after qc: n_obs x n_vars = 6713 x 36601
+2024-12-16 16:05:00,599 - qc - INFO - quality control for Tingliu1
+2024-12-16 16:05:00,599 - qc - INFO - raw: n_obs x n_vars = 10505 x 27719
+2024-12-16 16:05:01,136 - qc - INFO - filter cells: n=1019
+2024-12-16 16:05:01,137 - qc - INFO - filter genes: n=0
+2024-12-16 16:05:01,788 - qc - INFO - run scrublet... (this may take some time)
+2024-12-16 16:06:00,704 - qc - INFO - number of predicted doublets: 89
+2024-12-16 16:06:00,704 - qc - INFO - run leiden clustering...
+2024-12-16 16:06:21,018 - qc - INFO - cells with too much mt genes: n=192
+2024-12-16 16:06:21,020 - qc - INFO - clusters with high doublet score: []
+2024-12-16 16:06:21,034 - qc - INFO - filter cells: n=271
+2024-12-16 16:06:21,034 - qc - INFO - after qc: n_obs x n_vars = 9215 x 27719
